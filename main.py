@@ -47,4 +47,5 @@ while True:
               f.write('\n')
               bot.send_message(id, links[i])
     time.sleep(120)
+
 bot.polling(none_stop=True, interval=0)
